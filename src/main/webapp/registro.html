@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css_js/registro.css">
+    <script type="text/javascript" src="./css_js/registro.js"></script>
+    <title>Registro</title>
+</head>
+<body onload="obtenerPaises()">
+    <h1>Sign up</h1>
+    <form onsubmit="return false;">
+        <label for="user">User</label><br>
+        <input type="text" id="user" name="user" required><br><br>
+        
+        <label for="pass">Password</label><br>
+        <input type="password" id="pass" name="pass" required><br><br>
+
+        <label for="pass">Confirm password</label><br>
+        <input type="password" id="pass2" name="pass2" required><br><br>
+        
+        <label for="mail">E-mail</label><br>
+        <input type="email" id="mail" name="mail" required><br><br>
+        
+        <select id="codeCountry" required>
+            <option value="" disabled selected>Select your country</option>
+        </select>
+        <br><br>
+        <button name="but"type="submit" onclick="registre()">Sign up</button>
+        <button id="login" onclick="window.location.href = 'Login.html';">Log in</button>
+        <p id="resultado"></p>
+      </form>
+</body>
+</html>

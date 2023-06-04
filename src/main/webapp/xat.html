@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="./css_js/xat.css">
+<script type="text/javascript" src="./css_js/xat.js"></script>
+<title>Chat</title>
+</head>
+<body onload="getFriends();">
+  <h1>Start chatting</h1>
+  <form>
+    <label for="friend">Add a friend by e-mail</label> 
+    <input type="email" id="friend" class="required-email" required>
+    <button type="button" onclick="añadirAmigos()">Send request</button>
+    <button type="button" onclick="logOut()">Log out</button>
+    <p id="resultado"></p>
+  </form>
+  <form id="enviarSms">
+    <div>
+      <h1 id="list">Friends</h1>
+      <select id="friendList"></select>
+    </div>
+    <input type="text" id="message" required placeholder="Send a message">
+    <button name="but" type="button" onclick="enviarMensaje()">Send message</button>
+    <p id="smsResult"></p>
+  </form>
+  <br>
+  <form>
+    <button name="but" type="button" onclick="recibirMensajes()">Show messages</button>
+    <button name="but" type="button" onclick="cerrarChat()">Close chat</button>
+    <p id="mensajes"></p>
+  </form>
+  <script>
+    document.querySelector("button[name='but']:first-child").addEventListener("click", recibirMensajes);
+    document.querySelector("button[name='but']:last-child").addEventListener("click", cerrarChat);
+  </script>
+</body>
+</html>
