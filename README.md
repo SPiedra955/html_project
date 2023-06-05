@@ -1,6 +1,6 @@
 # Table of contents
  * [**Introduction**](#introduction)
- * [**Download**](#download)
+ * [**Downloads**](#downloads)
  * [**Amics**](#amics)
     * [**Login**](#login)
     * [**Sign up**](#sign-up)
@@ -9,20 +9,21 @@
 
 # Introduction
 
-This is a project in which we have to design the Front-end part of a Back-end given by our teacher and design a working sample application, with this application we are going to use Servlets and Apache Tomcat Server to create it.
+This is a project in which we have to design the front-end part of a back-end given by our teacher and design a working sample application, with this application we are going to use Servlets, HTML, Java, JavaScript, Maven and Apache Tomcat Server to create it.
 With this application we can send messages from one account to another as the main function, there are also some features like register a new user, add a friend by his e-mail and show the history of messages between users.
 
 # Downloads
 
-* Apache Tomcat Server version 9.
-* Eclipse IDE for Enterprise Java and Web Developers.
+* Apache Tomcat Server version 9
+* Apache Maven 3.8.7
+* Eclipse IDE for Enterprise Java and Web Developers
 * gson-2.9.1.jar
 * mysql-connector-j-8.0.31.jar
 * [ddl.sql](https://github.com/SPiedra955/html_project/blob/master/scripts/xat.sql)
 
 # Amics
 
-This is the name of this project, because it's an app that allow us send messages with our friends and it's divided in three pages that are ```Login.html```, ```registro.html``` and ```xat.html```.
+This is the name of this project, it is an application that allows us to send messages with our friends and it is divided into three pages which are ````Login.html````,```` register.html```` and ````xat.html````.
 
 ### Login
 
