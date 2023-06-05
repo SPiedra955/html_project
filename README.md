@@ -1,4 +1,11 @@
-# html_project
+# Table of contents
+ * [**Introductio**](#introduction)
+ * [**Download**](#download)
+ * [**Amics**](#amics)
+    * [**Login**](#login)
+    * [**Sign up**](#sign-up)
+    * [**Chat**](#chat)
+    * [**Database**](#database)
 
 # Introduction
 
@@ -17,7 +24,7 @@ With this application we can send messages from one account to another as the ma
 
 This is the name of this project, because it's an app that allow us send messages with our friends and it's divided in three pages that are ```Login.html```, ```registro.html``` and ```xat.html```.
 
-### Log in
+### Login
 
 This is the main page where we can access our application, it is a simple login page that is connected to a database of users, once the user is verified, the chat page is accessed.
 
@@ -33,7 +40,7 @@ On this page you can create a new user by filling in the fields and choosing you
 
 Once registered the page redirects you to ```Login.html``` to access the database, otherwise if you have not clicked the register button you can return to the main page.
 
-![image](https://github.com/SPiedra955/html_project/assets/114516225/6b666c46-11a6-4202-a61e-b6610d1183c7)
+![image](https://github.com/SPiedra955/html_project/assets/114516225/1f779a0c-c7a8-4755-9a0d-bf35150b96cf)
 
 ### Chat
 
@@ -50,4 +57,20 @@ ___Choose a friend and send them a message___:
 ___Our friend receive the message and answer it___:
 
 ![image](https://github.com/SPiedra955/html_project/assets/114516225/cb2a3128-2cb8-4dd9-9153-b0443c84ddac)
+
+### Database
+
+Inside the folder scripts you can find the a SQL file for create the database to use in this project,but we need one more table that isn't in our script it's the following:
+
+````
+CREATE TABLE message (
+    id INT(11) AUTO_INCREMENT,
+    origen VARCHAR(50),
+    desti VARCHAR(50),
+    text VARCHAR(50),
+    PRIMARY KEY (id)
+);
+````
+
+
 
