@@ -18,7 +18,7 @@ With this application we can send messages from one account to another as the ma
 * Eclipse IDE for Enterprise Java and Web Developers.
 * gson-2.9.1.jar
 * mysql-connector-j-8.0.31.jar
-* [ddl.sql]()
+* [ddl.sql](https://github.com/SPiedra955/html_project/blob/master/scripts/xat.sql)
 
 # Amics
 
