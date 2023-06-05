@@ -29,7 +29,7 @@ This is the name of this project, it is an application that allows us to send me
 
 This is the main page where we can access our application, it is a simple login page that is connected to a database of users, once the user is verified, the chat page is accessed.
 
-This is the aspect of the page:
+___This is the aspect of the page___
 
 ![image](https://github.com/SPiedra955/html_project/assets/114516225/78f0922e-6e1a-4600-bf46-3b0a4432485c)
 
