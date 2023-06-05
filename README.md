@@ -31,7 +31,7 @@ This is the main page where we can access our application, it is a simple login 
 
 ___This is the aspect of the page___
 
-![image](https://github.com/SPiedra955/html_project/assets/114516225/78f0922e-6e1a-4600-bf46-3b0a4432485c)
+![image](https://github.com/SPiedra955/html_project/assets/114516225/8aa473cd-85e5-4e4d-938a-dae3bc8341c2)
 
 If you are not registered in the database you can sign up clicking the button "Sign up".
 
@@ -41,7 +41,7 @@ On this page you can create a new user by filling in the fields and choosing you
 
 Once registered the page redirects you to ```Login.html``` to access the database, otherwise if you have not clicked the register button you can return to the main page.
 
-![image](https://github.com/SPiedra955/html_project/assets/114516225/1f779a0c-c7a8-4755-9a0d-bf35150b96cf)
+![image](https://github.com/SPiedra955/html_project/assets/114516225/9049d54f-62a3-4a94-bc0f-908940d51cf7)
 
 ### Chat
 
@@ -53,11 +53,11 @@ We access to this page if we succes with our login and this are his functions:
 
 ___Choose a friend and send them a message___
 
-![image](https://github.com/SPiedra955/html_project/assets/114516225/d68e4d39-af0e-468b-af47-e5eeafa9e561)
+![image](https://github.com/SPiedra955/html_project/assets/114516225/8827bb7c-9eeb-463a-b2ae-60972916a37e)
 
 ___Our friend receive the message and answer it___
 
-![image](https://github.com/SPiedra955/html_project/assets/114516225/cb2a3128-2cb8-4dd9-9153-b0443c84ddac)
+![image](https://github.com/SPiedra955/html_project/assets/114516225/b16a3467-fae2-4064-842f-57b8b8c1bbca)
 
 ### Database
 
