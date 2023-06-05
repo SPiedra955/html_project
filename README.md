@@ -1,5 +1,5 @@
 # Table of contents
- * [**Introductio**](#introduction)
+ * [**Introduction**](#introduction)
  * [**Download**](#download)
  * [**Amics**](#amics)
     * [**Login**](#login)
