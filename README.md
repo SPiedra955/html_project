@@ -9,7 +9,7 @@
 
 # Introduction
 
-This is a project in which we have to design the front-end part of a back-end given by our teacher and design a working sample application, with this application we are going to use Servlets, HTML, Java, JavaScript, Maven and Apache Tomcat Server to create it.
+This is a project in which we have to design the front-end part of a back-end given by our teacher and design a working sample application, with this application we are going to use Servlets, HTML, CSS, Java, JavaScript, Maven and Apache Tomcat Server to create it.
 With this application we can send messages from one account to another as the main function, there are also some features like register a new user, add a friend by his e-mail and show the history of messages between users.
 
 # Downloads
