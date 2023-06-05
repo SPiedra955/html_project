@@ -51,11 +51,11 @@ We access to this page if we succes with our login and this are his functions:
 * The option to select a friend to initiate a chat and send a message to.
 * Display the message sent between two users and hide the conversation.
 
-___Choose a friend and send them a message___:
+___Choose a friend and send them a message___
 
 ![image](https://github.com/SPiedra955/html_project/assets/114516225/d68e4d39-af0e-468b-af47-e5eeafa9e561)
 
-___Our friend receive the message and answer it___:
+___Our friend receive the message and answer it___
 
 ![image](https://github.com/SPiedra955/html_project/assets/114516225/cb2a3128-2cb8-4dd9-9153-b0443c84ddac)
 
