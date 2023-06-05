@@ -18,14 +18,14 @@ function añadirAmigos() {
       if (http.status === 200) {
         var response = http.responseText;
         if (response === '0') {
-          document.getElementById("resultado").innerHTML = 'El servidor no responde';
+          document.getElementById("resultado").innerHTML = 'Server does not respond';
         } else if (response === '1') {
-          document.getElementById("resultado").innerHTML = 'Amigo agregado correctamente';
+          document.getElementById("resultado").innerHTML = 'Friend successfully added';
           getFriends();
         } else if (response === '2') {
-          document.getElementById("resultado").innerHTML = 'Amigo no encontrado';
+          document.getElementById("resultado").innerHTML = 'Friend not found'
         } else if (response === '3') {
-          document.getElementById("resultado").innerHTML = 'El código de sesión ha expirado y se requiere iniciar sesión nuevamente';
+          document.getElementById("resultado").innerHTML = 'The session code has expired and a new login is required.';
         }
       } else {
         console.error('Error en la petición al backend:', http.status);
